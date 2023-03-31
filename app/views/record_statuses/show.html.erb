@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @record_status %>
+
+<div>
+  <%= link_to "Edit this record status", edit_record_status_path(@record_status) %> |
+  <%= link_to "Back to record statuses", record_statuses_path %>
+
+  <%= button_to "Destroy this record status", @record_status, method: :delete %>
+</div>

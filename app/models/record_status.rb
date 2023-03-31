@@ -1,0 +1,2 @@
+class RecordStatus < ApplicationRecord
+end
